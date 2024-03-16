@@ -25,10 +25,15 @@ O Banco Gente é um novo banco digital comunitário que vai ser lançado para o 
 🚧 Em construção...
 
 # Missões
-1ª Missão: Avalie os esboços, verifique se fazem sentido e sugira melhorias. Os atributos serão fornecidos em breve pelo cliente. Nesse primeiro momento procure focar nas entidades e nos relacionamentos entre elas. Além dos esboços recebidos, você deve gerar esboços as entidades que vão armazenar os dados necessários aos produtos dos banco.
-* Produto: Contas (Conta-corrente, Conta-poupança, Conta-Conjunta, Conta-Salário)
-* Produto: Cartão de crédito
-* Produto: Empréstimo
+1ª Missão: Avalie as anotações, verifique o que faz sentido e construa um modelo conceitual. Os atributos serão fornecidos em breve pelo cliente. Nesse primeiro momento procure focar nas entidades e nos relacionamentos entre elas. 
+
+Briefing:
+O banco ainda está em fase de criação e precisamos construir toda a estrutura que vai sustentar não apenas a parte de negócios como também a parte relacionada a staffing e fornecedores. 
+Pensamos de forma modular e como vamos constratar pessoas, gostaríamos que o primeiro módulo fosse o de RH. Nossa estrutura se divide em Departamento Pessoal, setor que cuida da parte burocrática como folha de ponto, contratações, demissões, benefícios, contratos etc. A segunda parte do RH é do time de Gestão de Pessoas. Eles vão cuidar da parte de treinamento, carreira, desenvolvimento contínuo, onboarding, workshops etc. Tudo relacionado a pessoas. Precisamos dessdes dois módulos prioritariamente porque vamos precisar contratar as pessoas que vão trabalhar no banco.
+
+Sua tarefa:
+- Elabore um modelo conceitual desses dois módulos que vão compor o RH ainda sem os atributos. Somente com os relacionamentos e as entidades.
+
 
 # Referências
 
