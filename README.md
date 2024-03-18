@@ -3,7 +3,6 @@
 - [Descritivo](#descritivo)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 - [Case](#case)
-- [Missões](#missões)
 
 
 # Descritivo
@@ -21,18 +20,19 @@ Projeto fictício com objetivo de comprovar o aprendizado obtido nos treinamento
 # Case
 O Banco Gente é um novo banco digital comunitário que vai ser lançado para o público no mês de julho de 2025. Para isso a diretoria do banco recém constituído procurou a consultoria XPTO para criar o "coração" do negócio que, por enquanto, vamos chamar apenas de banco de dados. Segundo o cliente, precisamos ter até o lançamento toda a parte de cadastro e gestão de pessoas, conta-corrente, cartão de crédito e empréstimo. A primeira reunião com o cliente já aconteceu e as anotações dos participantes deram origem aos primeiros esboços do modelo conceitual.
 
-🚧 Em construção...
+Sua missão:
+Você vai criar um banco de dados relacional para suportar:
+RH - dividido em gestão de pessoas e departamento pessoal
+Cadastro de clientes - clientes pessoa física e jurídica
+Operações bancárias - Depósito, saque, empréstimo com juros e capitalizacao.
+Produtos: conta corrente, conta poupança, empréstimos e cartão de crédito.
+Você é livre para criar os atributos que considerar necessários.
 
-# Missões
-1ª Missão: Avalie as anotações, verifique o que faz sentido e construa um modelo conceitual do banco de dados conforme as diretrizes presentes no briefing. Os atributos serão fornecidos em breve pelo cliente. Nesse primeiro momento procure focar nas entidades e nos relacionamentos entre elas. 
-
-Briefing:
-O banco ainda está em fase de criação e precisamos construir toda a estrutura que vai sustentar não apenas a parte de negócios como também a parte relacionada a staffing e fornecedores. 
-Pensamos de forma modular e como vamos contratar pessoas, gostaríamos que o primeiro módulo fosse o de RH. Nossa estrutura se divide em Departamento Pessoal, setor que cuida da parte burocrática como folha de ponto, contratações, demissões, benefícios, contratos etc. A segunda parte do RH é do time de Gestão de Pessoas. Eles vão cuidar da parte de treinamento, carreira, desenvolvimento contínuo, onboarding, workshops etc. Tudo relacionado a pessoas. Precisamos desses dois módulos prioritariamente porque vamos precisar contratar as pessoas que vão trabalhar no banco.
-
-Sua tarefa:
-- Elabore um modelo conceitual desses dois módulos que vão compor o RH ainda sem os atributos. Somente com os relacionamentos e as entidades.
-
+Ao final você deve ter:
+* Modelo conceitual
+* Modelo lógico
+* Modelo físico
+* Dados mockados para fazer isso tudo funcionar.
 
 
 
