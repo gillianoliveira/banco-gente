@@ -22,3 +22,18 @@ naturalidade VARCHAR(80),
 idioma_nativo VARCHAR(50),
 estado_civil VARCHAR(15) # Solteiro, Casado, União Estável, Separado, Divorciado, Viúvo
 );
+
+CREATE TABLE IF NOT EXISTS tb_endereco(
+pk_code_endereco INT AUTO_INCREMENT PRIMARY KEY,
+logradouro VARCHAR(180),
+numero VARCHAR(10),
+complemento VARCHAR(180),
+bairro VARCHAR(80),
+cidade VARCHAR(80),
+uf CHAR(2),
+pais VARCHAR(50),
+cep VARCHAR(8),
+tipo VARCHAR(50), # casa, apartamento, fazenda, sítio, chácara, loteamento
+fk_nossa_gente INT,
+FOREIGN KEY(fk_nossa_gente) REFERENCES tb_nossa_gente(pk_id_nossa_gente)
+);
