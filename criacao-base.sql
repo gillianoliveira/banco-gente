@@ -52,3 +52,12 @@ nome_contato VARCHAR(180),
 fk_nossa_gente INT,
 FOREIGN KEY(fk_nossa_gente) REFERENCES tb_nossa_gente(pk_id_nossa_gente)
 );
+
+CREATE TABLE IF NOT EXISTS tb_email(
+pk_code_email INT AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR(150),
+tipo_email VARCHAR(15), #Comercial, Pessoal, Contato
+fk_nossa_gente INT,
+FOREIGN KEY(fk_nossa_gente) REFERENCES tb_nossa_gente(pk_id_nossa_gente)
+);
+       
