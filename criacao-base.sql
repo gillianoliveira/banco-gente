@@ -37,3 +37,18 @@ tipo VARCHAR(50), # casa, apartamento, fazenda, sítio, chácara, loteamento
 fk_nossa_gente INT,
 FOREIGN KEY(fk_nossa_gente) REFERENCES tb_nossa_gente(pk_id_nossa_gente)
 );
+
+CREATE TABLE IF NOT EXISTS tb_telefone(
+ck_numero_telefone VARCHAR(15),
+ck_ddd CHAR(2),
+codigo_pais VARCHAR(2),
+tipo_telefone VARCHAR(5), # Fixo, Móvel, Fax, Pager
+categoria VARCHAR(10), #Casa, Trabalho, Recado
+mensageiro VARCHAR(10), # WhattsApp, Telegram, Line, Viber, Skype, WeChat
+ramal VARCHAR(5),
+setor VARCHAR(30),
+contato VARCHAR(20), #próprio, mãe, pai, filho, outros familiares, amigo, secretária
+nome_contato VARCHAR(180),
+fk_nossa_gente INT,
+FOREIGN KEY(fk_nossa_gente) REFERENCES tb_nossa_gente(pk_id_nossa_gente)
+);
